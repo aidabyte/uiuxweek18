@@ -5,7 +5,7 @@ body{
     h1{
         
         font-family: 'Chicle', 'cursive','Open Sans', sans-serif;
-        padding-top:30px; 
+        padding-top:50px; 
         text-align: center;
         font-size: 50px;
     
@@ -79,6 +79,7 @@ body{
         vertical-align: top;
         padding-right: 100px;
         font-family: 'Mulish', sans-serif;
+        font-style: normal;
     
     }
     
@@ -152,10 +153,129 @@ body{
         padding-right: 150px;
     
     }
-    /* About Me Page */
-    flexContainer{
+/* My UX skills coded using CSS flexbox */
+    .flexContainer{
 display:flex;
     }
+
+    .skills{
+    /* width: 33%;
+    padding: 20px;
+    margin: 20px; */
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    margin: 5px;
+    display: grid;
+    /* align-content: end; */
+    }
+
+   #aidaImg{
+        width: 600px;
+        padding-left: 350px;
+        grid-area: aidaImg;
+        
+
+    }
+    #p1{
+        grid-area: p1;
+        text-align: center;
+        padding-left: 320px;
+
+    }
+    #p2{
+        grid-area: p2;
+        text-align: center;
+        padding-left: 320px;;
+       
+
+    }
+    #p3{
+        grid-area: p3;
+        /* text-align: center; */
+        padding-left: 320px;;
+       
+
+    }
+    #p4{
+        grid-area: p4;
+        text-align: center;
+        padding-left: 320px;;
+       
+
+    }
+    #categoryGrid{
+        margin: 0px 5%;
+        display: grid;
+        grid-template-rows:500px 100px 100px 100px 100px ;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "aidaImg"
+        "p1"
+        "p2"
+        "p3"
+        "p4"
+        "clickResume"
+        "button"
+  ;
+    }
+    #clickResume{
+        grid-area:clickResume;
+        padding-left: 350px;
+        margin-bottom: 50px;
+  
+      }
+
+    button{
+        grid-area: button;
+        width:200px;
+        position: relative;
+        left: 530px;
+        height:60px;
+        border-radius: 20px;
+        border-style: none;
+        background-color: #999B13;
+        color: white;
+        font-family: 'Chicle', 'cursive','Open Sans', sans-serif;
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+
+  /* Contact Tab */
+
+  #contactTitle{
+    margin-top: 100px;
+  }
+
+    #iconGrid{
+        margin: 0px 5%;
+        display: grid;
+        grid-template-rows: 300px ;
+  grid-template-columns: 25% 25%;
+  grid-template-areas:
+  "linkedinIcon gmailIcon resumeIcon"
+  ;
+
+    }
+    #linkedinIcon{
+        /* display: flexbox; */
+        grid-area: linkedinIcon;
+        width: 80px;
+      
+   
+    }
+    #gmailIcon{
+        grid-area: gmailnIcon;
+        text-align: center;
+        width: 80px;
+    }
+    #resumeIcon{
+        grid-area: gmailnIcon;
+        width: 80px;
+    }
+
+   
+
+
     
     
     footer{
@@ -166,8 +286,13 @@ display:flex;
         font-family: 'Mulish', sans-serif;
     }
 
-    /* @media screen and (min-width: 800px) {
-        body {
-         
-        }
-      } */
+    @media only screen and (max-width:
+    768px) {
+      
+    
+  }
+
+  @media only screen and (max-width:
+  645x) {
+   
+}
