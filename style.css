@@ -127,6 +127,7 @@ body{
     nav{
        display: inline;
        width:50%;
+      position: sticky;
     }
     
     hr{
@@ -156,6 +157,9 @@ body{
 /* My UX skills coded using CSS flexbox */
     .flexContainer{
 display:flex;
+
+        justify-content: center;
+        flex-direction: row;
     }
 
     .skills{
@@ -243,7 +247,7 @@ display:flex;
   /* Contact Tab */
 
   #contactTitle{
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
     #iconGrid{
@@ -277,6 +281,7 @@ display:flex;
         justify-content: center;
         flex-direction: row;
     }
+  
 
    
 
