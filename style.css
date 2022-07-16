@@ -249,6 +249,7 @@ display:flex;
     #iconGrid{
         margin: 0px 5%;
         display: grid;
+        justify-content: center;
         grid-template-rows: 300px ;
   grid-template-columns: 25% 25%;
   grid-template-areas:
@@ -257,20 +258,24 @@ display:flex;
 
     }
     #linkedinIcon{
-        /* display: flexbox; */
-        grid-area: linkedinIcon;
+       /* display: flexbox; */
+       grid-area: linkedinIcon;
         width: 80px;
       
    
     }
     #gmailIcon{
         grid-area: gmailnIcon;
-        text-align: center;
         width: 80px;
     }
     #resumeIcon{
         grid-area: gmailnIcon;
         width: 80px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
     }
 
    
