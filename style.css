@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(255, 248, 238);
+    
+    }
+    h1{
+        
+        font-family: 'Chicle', 'cursive','Open Sans', sans-serif;
+        padding-top:30px; 
+        text-align: center;
+        font-size: 50px;
+    
+    }
+    h2{
+        font-family: 'Mulish', sans-serif;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    
+    
+    #logo{
+        width:60px;
+        height:60px;
+        display: inline-block;
+        padding-left: 100px;
+     
+    
+    }
+    #skillsphoto{
+        padding-top:150px;
+        width: 350px;
+        height: 250px;
+        padding-bottom: 100px;
+        padding-left: 60px;
+    
+    }
+    #skillsText{
+    font-family: 'Mulish', sans-serif;
+       padding-top: 200px; 
+       font-size: 20px;
+       float: right;
+       padding-right: 400px;
+    }
+    
+    .logo{
+        width: 23%;
+        padding:1%;
+        text-align: center;
+    }
+    
+    #latestworkphoto{
+        width: 350px;
+        height: 150px;
+        padding-left: 120px;
+        padding-bottom:50px;
+    }
+    #rootedphoto{
+        width: 700px;
+        height: 350px;
+        border-color: black;
+        padding-left: 50px;
+        padding-bottom: 150px;
+       
+    }
+    #nonprofitphoto{
+        width: 700px;
+        height: 350px;
+        padding-left: 150px;
+        padding-bottom: 150px;
+    
+    }
+    
+    
+    li{
+        display: inline;
+        float:right;
+        padding-top: 20px;
+        color: black;
+        vertical-align: top;
+        padding-right: 100px;
+        font-family: 'Mulish', sans-serif;
+    
+    }
+    
+     
+    #rootedText{
+       /* padding-left: 850px; */
+       font-family: 'Chicle', 'cursive','Open Sans', sans-serif;
+       padding-top: 50px; 
+       font-size: 50px;
+       float: right;
+       padding-right: 70px;
+      
+    }
+    #rootedParagraph{
+        font-family: 'Mulish', sans-serif;
+        font-size: 20px;
+        padding-top: 150px; 
+       padding-left:860px;
+      
+    }
+    #nonprofitText{
+    
+        font-family: 'Chicle', 'cursive','Open Sans', sans-serif;
+        padding-top:50px; 
+        font-size: 50px;
+        float: right;
+        padding-right: 50px;
+     }
+     h6{
+        font-family: 'Mulish', sans-serif;
+        font-size: 18px;
+        padding-top: 0;
+      
+    }
+    
+    
+    
+    .lines{
+        padding: 10px;
+        display: inline-block; 
+        margin:20px;
+    
+    }
+    
+    nav{
+       display: inline;
+       width:50%;
+    }
+    
+    hr{
+        border: 1px solid black;
+    
+    }
+    #space{
+        height:10px;
+        text-align: left;
+    }
+    #workText{
+        font-family: 'Chicle', 'cursive','Open Sans', sans-serif;
+        padding-top:30px; 
+        padding-bottom: 200px;
+        padding-left:150px;
+        font-size: 50px;
+    }
+    #arrowphoto{
+        width: 150px;
+        height:100px;
+        padding-left: 50px;
+        float: right;
+        margin: 0px;
+        padding-right: 150px;
+    
+    }
+    /* About Me Page */
+    flexContainer{
+display:flex;
+    }
+    
+    
+    footer{
+    text-align: center;
+    }
+    #lineFooter{
+        padding-bottom:30px;
+        font-family: 'Mulish', sans-serif;
+    }
+
+    /* @media screen and (min-width: 800px) {
+        body {
+         
+        }
+      } */
